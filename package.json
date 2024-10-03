@@ -7,9 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "npm install"
   },
-  "author": "",
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "Eduplat",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
